@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(12, 50, 221); 
+    color: rgb(255, 255, 255);
+    font-family: "Bona Nova SC", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 500px;
+    margin: 5;
+    
+}
+
+button {
+    background-color: rgb(14, 142, 201);
+    color:rgb(0, 0, 0);
+    font-family: "Bona Nova SC", serif;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo {
+    display:block; 
+}
+
+main {
+    text-align: center;
+    max-width: 100%;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+    border-radius: 10%;
+}
